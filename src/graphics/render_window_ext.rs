@@ -4,12 +4,13 @@ use sfml::{
     window::VideoMode,
 };
 
-pub trait SfWindowExt {
+/// Extensions for `RenderWindow`
+pub trait RenderWindowExt {
     /// Center the window on screen
     fn center(&mut self);
 }
 
-impl SfWindowExt for RenderWindow {
+impl RenderWindowExt for RenderWindow {
     fn center(&mut self) {
         let Vector2 { x, y } = self.size();
         let desktop_mode = VideoMode::desktop_mode();

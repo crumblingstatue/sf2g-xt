@@ -1,1 +1,2 @@
-mod sf_window_ext;
+mod render_window_ext;
+pub use render_window_ext::RenderWindowExt;
