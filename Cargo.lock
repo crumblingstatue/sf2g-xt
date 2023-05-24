@@ -47,8 +47,7 @@ checksum = "b7e5500299e16ebb147ae15a00a942af264cf3688f47923b8fc2cd5858f23ad3"
 [[package]]
 name = "sfml"
 version = "0.20.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "cc90f712d9a93d8db54e53281dbb6dbb29e443abcc83e185df4bbe60ba6e8311"
+source = "git+https://github.com/jeremyletang/rust-sfml.git#52d7d4c297a2bbc16a81ab07985742544f78266b"
 dependencies = [
  "bitflags",
  "cc",
