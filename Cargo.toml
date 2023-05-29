@@ -8,3 +8,5 @@ description = "Various extensions to SFML's core functionality"
 
 [dependencies.sfml]
 git = "https://github.com/jeremyletang/rust-sfml.git"
+default-features = false
+features = ["graphics"]
