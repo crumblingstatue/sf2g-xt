@@ -24,6 +24,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "cmake"
+version = "0.1.51"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "fb1e43aa7fd152b1f968787f7dbcdeb306d1867ff373c69955211876c053f91a"
+dependencies = [
+ "cc",
+]
+
+[[package]]
 name = "link-cplusplus"
 version = "1.0.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -44,10 +53,11 @@ dependencies = [
 [[package]]
 name = "sfml"
 version = "0.22.0"
-source = "git+https://github.com/jeremyletang/rust-sfml.git#40b213e378fc5c9075d4fdca3dfb7f0f88df90eb"
+source = "git+https://github.com/jeremyletang/rust-sfml.git?branch=vendored-sfml#0614a8db0b04d87bb73e4f8f66effe82e69e3cc6"
 dependencies = [
  "bitflags",
  "cc",
+ "cmake",
  "link-cplusplus",
  "num-traits",
  "widestring",
