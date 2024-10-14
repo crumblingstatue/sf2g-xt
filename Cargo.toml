@@ -3,6 +3,9 @@ name = "sfml-xt"
 version = "0.1.0"
 edition = "2021"
 description = "Various extensions to SFML's core functionality"
+license = "MIT OR Apache-2.0"
+documentation = "https://docs.rs/sfml-xt"
+repository = "https://github.com/crumblingstatue/sfml-xt"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
