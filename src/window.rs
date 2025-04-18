@@ -1,6 +1,6 @@
-use {sfml::window::mouse, std::collections::HashSet};
+use {sf2g::window::mouse, std::collections::HashSet};
 
-use sfml::window::{Event, Key};
+use sf2g::window::{Event, Key};
 
 /// Input abstraction that collects input state from events.
 ///

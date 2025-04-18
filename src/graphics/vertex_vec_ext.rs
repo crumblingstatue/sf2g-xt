@@ -1,4 +1,4 @@
-use sfml::{
+use sf2g::{
     graphics::{Color, FloatRect, IntRect, Vertex},
     system::Vector2,
 };

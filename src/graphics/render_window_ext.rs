@@ -1,4 +1,4 @@
-use sfml::{
+use sf2g::{
     graphics::{RenderTarget, RenderWindow},
     system::Vector2,
     window::{ContextSettings, Style, VideoMode},
