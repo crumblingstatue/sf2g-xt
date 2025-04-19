@@ -1,6 +1,6 @@
 [package]
 name = "sf2g-xt"
-version = "0.2.0"
+version = "0.1.0"
 edition = "2024"
 description = "Various extensions to SFML's core functionality"
 license = "MIT OR Apache-2.0"
@@ -10,6 +10,6 @@ repository = "https://github.com/crumblingstatue/sf2g-xt"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies.sf2g]
-git = "https://github.com/crumblingstatue/sf2g.git"
+version = "0.1"
 default-features = false
 features = ["graphics"]
